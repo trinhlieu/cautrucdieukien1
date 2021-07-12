@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cấu trúc IF ELSE IF</title>
+</head>
+<body>
+<script>
+    let userName = prompt('Who is there?');
+    if (userName == 'Admin') {
+      let pass = prompt('Password?');
+       if (pass == 'Admin') {
+           alert('Welcome')
+       }else if (pass == 'null') {
+           alert('Canceled')
+       }else
+           alert('Wrong password!');
+
+    }else if (userName == null)
+        alert('Canceled');
+     else
+        alert('I dont know you')
+</script>
+</body>
+</html>
